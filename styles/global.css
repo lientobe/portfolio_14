@@ -28,6 +28,12 @@ body {
     }
 }
 
+@media (max-width: 414px) {
+    .container {
+        width: 82%;
+    }
+}
+
 @media (max-width: 375px) {
     .container {
         width: 84%;
@@ -39,10 +45,9 @@ body {
     font-size: 24px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .title {
         font-weight: 600;
-        font-size: 24px;
         text-align: center;
     }
 }

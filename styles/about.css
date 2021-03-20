@@ -17,6 +17,13 @@
     }
 }
 
+@media (max-width: 414px) {
+    .about {
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+}
+
 @media (max-width: 375px) {
     .about {
         padding-top: 25px;
