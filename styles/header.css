@@ -63,13 +63,13 @@ header {
 
 @media (max-width: 1024px) {
     .nav-list {
-        gap: 40px;
+        gap: 30px;
     }
 }
 
 @media (max-width: 768px) {
     .nav-list {
-        gap: 15px;
+        gap: 10px;
     }
 }
 
