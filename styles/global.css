@@ -1,0 +1,58 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.2;
+    color: #333333;
+}
+
+@media (max-width: 1024px) {
+    html, body {
+        overflow-x: hidden;
+    }
+}
+
+.container {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 84%;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+.text {
+    font-size: 18px;
+}
+
+@media (max-width: 375px) {
+    .text {
+        font-size: 12px;
+    }
+}

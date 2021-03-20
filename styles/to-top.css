@@ -1,0 +1,30 @@
+.to-top {
+    position: fixed;
+    bottom: 70px;
+    right: 180px;
+}
+
+@media (max-width: 1024px) {
+    .to-top {
+        right: 144px;
+        bottom: 56px;
+    }
+}
+
+@media (max-width: 768px) {
+    .to-top {
+        right: 100px;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .to-top {
+        right: 32px;
+        bottom: 58px;
+    }
+}
+
+.to-top img{
+    transform: rotate(1.57rad);
+}
