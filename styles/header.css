@@ -1,0 +1,95 @@
+.nav-but {
+    display: none;
+}
+
+@media (max-width: 810px) {
+    .nav-but {
+        display: grid;
+        gap: 5px;
+        margin-right: 15px;
+        width: 24px;
+        height: 18px;
+    }
+    .nav-but span {
+        height: 2px;
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-but {
+        margin-right: 85px;
+    }
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 810px) {
+    header {
+        justify-content: flex-start;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 375px) {
+    header {
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@media (max-width: 375px) {
+    .logo {
+        text-align: center;
+    }
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+}
+
+@media (max-width: 810px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-list {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        gap: 10px;
+    }
+}
+
+.nav-link {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+
+

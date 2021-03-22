@@ -1,0 +1,11 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap');
+@import "global.css";
+@import "hero.css";
+@import "header.css";
+@import "hero-content.css";
+@import "about.css";
+@import "skills.css";
+@import "portfolio.css";
+@import "footer.css";
+@import "to-top.css";
