@@ -4,25 +4,13 @@ body {
     color: #333333;
 }
 
-@media (max-width: 1024px) {
-    html, body {
-        overflow-x: hidden;
-    }
-}
-
 .container {
     width: 1110px;
     margin-right: auto;
     margin-left: auto;
 }
 
-@media (max-width: 1024px) {
-    .container {
-        width: 80%;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .container {
         width: 80%;
     }

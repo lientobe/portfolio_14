@@ -4,21 +4,21 @@
     right: 180px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .to-top {
         right: 144px;
         bottom: 56px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .to-top {
         right: 100px;
         bottom: 50px;
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
     .to-top {
         right: 32px;
         bottom: 58px;

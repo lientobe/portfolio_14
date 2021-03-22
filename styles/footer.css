@@ -4,14 +4,14 @@ footer {
     padding-bottom: 190px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     footer {
         padding-top: 72px;
         padding-bottom: 140px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     footer {
         padding-top: 60px;
         padding-bottom: 120px;
@@ -36,7 +36,7 @@ footer h2 {
     margin-bottom: 50px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     footer h2 {
         margin-bottom: 40px;
     }
@@ -53,7 +53,7 @@ footer h2 {
     justify-content: space-between;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
     .footer-content {
         flex-wrap: wrap;
     }
@@ -63,7 +63,7 @@ footer h2 {
     width: 35%;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
     .footer-content ul {
         width: 45%;
         margin-bottom: 30px;

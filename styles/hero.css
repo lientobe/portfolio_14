@@ -2,30 +2,34 @@
     background-image: url("../img/background.jpg");
     background-size: cover;
     background-position: top center;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .hero {
+        background-image: url("../img/background2x.jpg");
+    }
 }
 
 @media (max-width: 768px) {
     .hero {
         padding-top: 60px;
-        padding-bottom: 60px;
-        height: auto;
+        min-height: auto;
     }
 }
 
 @media (max-width: 414px) {
     .hero {
-        height: auto;
         padding-top: 40px;
-        padding-bottom: 60px;
     }
 }
 
 @media (max-width: 375px) {
     .hero {
-        height: auto;
         padding-top: 30px;
-        padding-bottom: 60px;
     }
 }
