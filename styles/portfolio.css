@@ -116,12 +116,6 @@
     }
 }
 
-@media (max-width: 375px) {
-    .portfolio-content p {
-        text-align: center;
-    }
-}
-
 .arrow-right {
     transform: rotate(3.14rad);
     margin-left: 15px;
